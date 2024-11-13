@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background: rgb(0, 0, 212);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+img.logo {
+    width: 13%;
+}
+
+.navbtn {
+    font-family: 'Arial', sans-serif;
+    font-size: 5px;
+}
+
+.navbtn .btn1 {
+    background: lightgreen;
+    color: black;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.navbtn .btn1:hover {
+    background: rgb(85, 235, 85);
+}
+
+.navbtn button {
+    font-size: 11px;
+    padding: 10px 1.5rem;
+    border: none;
+    border-radius: 3px;
+    background: rgb(0, 140, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.navbtn button:hover {
+    background: rgb(1, 127, 230);
+}
+
+.home {
+    height: 110vh;
+    background: rgb(26, 26, 138);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.home-content button {
+    background: rgb(0, 140, 255);
+    border: none;
+    padding: 2.5% 4%;
+    color: white;
+    margin-top: 5rem;
+    font-size: 17px;
+    cursor: pointer;
+}
+.home-content button:hover {
+    background: rgb(1, 127, 230);
+}
+
+.container1 {
+    height: 140vh;
+    background: rgb(235, 235, 235);
+}
+
+.content-cont1 {
+    padding: 1.5rem 8%;
+    background: white;
+    width: 100%;
+}
+
+.content-cont1 h3 {
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.548);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.content-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-img img {
+    width: 16%;
+    opacity: 30%;
+}
+
+.cont2-title {
+    padding: 6rem 7rem;
+}
+
+.cont2-title h1 {
+    color: rgb(0, 140, 255);
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cont2-title h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cont2-class {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.contain {
+    max-width: 190px;
+    font-family: 'Arial', sans-serif;
+}
+
+.contain img {
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.contain h4 {
+    font-size: 16.5px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contain p {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.container2 {
+    background: rgb(1, 0, 10);
+    height: 90vh;
+    font-family: 'Arial', sans-serif;
+    padding: 10rem 6rem;
+}
+
+.container2-title {
+    color: rgb(0, 140, 255);
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.container2-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-contain2 {
+    background: white;
+    max-width: 350px;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+}
+
+.content-contain2 h4 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.content-contain2 p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.container3 {
+    background: rgb(26, 26, 138);
+    height: 75vh;
+    padding: 5rem;
+}
+
+.contain3-content {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.container3 h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.button-contain3 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-contain3 button {
+    padding: 1.7rem 7rem;
+    font-size: 17px;
+    font-weight: 200;
+    border: none;
+    background: rgb(0, 140, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.button-contain3 button:hover {
+    background: rgb(1, 116, 211);
+}
+
+.footer {
+    height: 70vh;
+    background: rgb(1, 0, 10);
+}
+
+.footer h3 {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 6rem;
+}
+
+.footer-content1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    padding: 0 6rem;
+    margin-bottom: 3rem;
+}
+
+.ftr-content {
+    color: rgb(123, 123, 123);
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+}
+
+.subtitle {
+    margin-bottom: 1rem;
+}
+
+.footer-content2 {
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 0 6rem;
+}
+
+.footer-content2 p{
+    color: rgb(123, 123, 123);
+    font-size: 13px;
+    margin-right: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.last-ftr {
+    color: rgb(123, 123, 123);
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    padding: 0 6rem;
+}
